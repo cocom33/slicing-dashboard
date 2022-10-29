@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard Tailwind CSS</title>
+	<link rel="stylesheet" href="../public/css/output.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 poppins">
+	<div class="flex">
+		<div class="max-w-[270px] w-full flex flex-col justify-between bg-white px-3 py-6">
+			<div>
+				<div class="mb-8 px-5">
+					<h3 class="text-secondary text-3xl font-bold">IBank<span class="text-orange-400">Care</span></h3>
+				</div>
+
+				<div>
+					<h1 class="text-secondary text-sm font-bold mb-3 px-6">Main Menu</h1>
+					<div class="mb-6">
+						<a href=""
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-slate-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-landmark mr-3"></i></i>Dashboard
+							</div>
+							<!-- <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span> -->
+						</a>
+						<a href="wallet.html"
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-slate-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-wallet mr-3"></i>My Wallet
+							</div>
+						</a>
+						<a href="history.html"
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-slate-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-clock-rotate-left mr-3"></i></i>History
+							</div>
+						</a>
+						<a href=""
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-slate-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-signal mr-3"></i>Statistic
+							</div>
+							<!-- <span class="rounded-full py-1 px-2 text-xs text-white bg-white/10">9+</span> -->
+						</a>
+						<a href=""
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-slate-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-inbox mr-3"></i>Inbox
+							</div>
+						</a>
+						<a href="index.html"
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-orange-400 font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-user mr-3"></i>Profile
+							</div>
+						</a>
+					</div>
+
+					<hr class="border-t border-slate-300 w-[200px] mx-auto mb-6">
+
+					<h1 class="text-secondary text-sm font-bold mb-3 px-6">Other</h1>
+					<div class="mb-6">
+						<a href=""
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-primary font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-info mr-3 ml-1"></i>Help & Support
+							</div>
+						</a>
+						<a href="settings.html"
+							class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-orange-400 group">
+							<div class="text-primary font-semibold group-hover:text-white duration-200 transition">
+								<i class="fa-solid fa-gear mr-3"></i>Settings
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<a href=""
+				class="mt-auto px-6 py-3 rounded-lg flex justify-between items-center transition duration-200 hover:bg-orange-400 group">
+				<div class="text-red-500/80 font-semibold group-hover:text-white duration-200 transition">
+					<i class="fa-solid fa-arrow-right-from-bracket mr-3"></i>Logout
+				</div>
+			</a>
+		</div>
+
+		<div class="w-full flex">
+			<div class="w-full">
+				<!-- navbar -->
+				<div class="p-6 w-full flex justify-between">
+					<div>
+						<h2 class="font-bold text-secondary text-xl mb-2">Discover NFT & Digital Art</h2>
+						<h4 class="text-slate-500 text-sm">Hi Hello Ghost</h4>
+					</div>
+					<div class="h-12 flex items-center">
+						<div class="mr-5 flex shadow-md rounded-xl bg-white">
+							<label for="search" class="h-12 w-12 pl-4 flex justify-center items-center">
+								<i class="fa-solid fa-magnifying-glass text-black"></i>
+							</label>
+							<input id="search" type="text" id="search"
+								class="rounded-r-xl pl-2 w-44 h-12 placeholder:text-xs focus:ring focus:outline-none focus:ring-slate-400 focus:border-slate-500"
+								placeholder="search...">
+						</div>
+						<div class="mr-5 relative">
+							<i class="fa-regular fa-bell fa-lg hover:text-white/80 transition duration-200" role="button"></i>
+							<div class="bg-red-500 h-[8px] w-[8px] absolute top-0 -right-1 rounded-full"></div>
+						</div>
+						<div class="rounded-full w-14 h-14 overflow-hidden">
+							<img src="../public/img/profile-2.png" alt="" class="object-cover w-full">
+						</div>
+					</div>
+				</div>
+
+				<!-- body -->
+				<div class="w-full px-6 flex flex-col">
+					<div class="bg-white px-8 py-6 rounded-xl">
+						<div class="flex items-center justify-between">
+							<h2 class="text-sky-700 font-bold text-xl">My Card</h2>
+							<a href="" class="text-orange-400 font-semibold text-sm">Add Card</a>
+						</div>
+						<div class="flex mt-5">
+							<div class="w-1/2">
+								<img src="../public/img/card-1.png" alt="" class="">
+							</div>
+							<div class="w-1/2">
+								<img src="../public/img/card-2.png" alt="" class="w-full">
+							</div>
+						</div>
+					</div>
+					<div class="bg-white mt-6 w-full px-10 py-6 rounded-xl">
+						<h2 class="text-sky-700 font-bold text-xl">My Card</h2>
+						<div class="p-6 mt-4 w-full rounded-lg border">
+							<div class="mb-3">
+								<label for="name" class="text-sm text-slate-400">Bank Name*</label>
+								<input type="text" id="name"
+									class="rounded w-full border px-4 py-2 mt-2 focus:outline-0 focus:ring focus:ring-orange-200 focus:border-orange-500 placeholder:text-sm"
+									placeholder="Insert Bank Name">
+							</div>
+							<div class="mb-3">
+								<label for="account" class="text-sm text-slate-400">Account Name*</label>
+								<input type="text" id="account"
+									class="rounded w-full border px-4 py-2 mt-2 focus:outline-0 focus:ring focus:ring-orange-200 focus:border-orange-500 placeholder:text-sm"
+									placeholder="Insert Account Name">
+							</div>
+							<div class="flex space-x-5 mb-3">
+								<div class="mb-3 w-1/2">
+									<label for="number" class="text-sm text-slate-400">Account Number*</label>
+									<input type="text" id="number"
+										class="rounded w-full border px-4 py-2 mt-2 focus:outline-0 focus:ring focus:ring-orange-200 focus:border-orange-500 placeholder:text-sm"
+										placeholder="Account Number">
+								</div>
+								<div class="mb-3 w-1/2">
+									<label for="code" class="text-sm text-slate-400">Swift Code</label>
+									<input type="text" id="code"
+										class="rounded w-full border px-4 py-2 mt-2 focus:outline-0 focus:ring focus:ring-orange-200 focus:border-orange-500 placeholder:text-sm"
+										placeholder="Swift Code">
+								</div>
+							</div>
+							<div class="mb-3">
+								<label for="branch" class="text-sm text-slate-400">Branch Name*</label>
+								<input type="text" id="branch"
+									class="rounded w-full border px-4 py-2 mt-2 focus:outline-0 focus:ring focus:ring-orange-200 focus:border-orange-500 placeholder:text-sm"
+									placeholder="Insert Account Name">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-[450px] h-full bg-white">
+				<div class="p-5">
+					<h2 class="font-bold text-secondary text-xl mb-2">BRI Master Card</h2>
+					<div class="flex">
+						<span class="text-slate-500 text-sm mr-4">Transaction</span>
+						<span class="text-orange-400 text-sm relative">
+							Detail
+							<div class="w-1 h-1 rounded-full bg-orange-400 absolute -bottom-2 left-1/2 -translate-x-1/2"></div>
+						</span>
+					</div>
+					<div class="mt-8 flex">
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Account Number</p>
+							<h3 class="mr-4 text-slate-700">(021) 70177075</p>
+						</div>
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Account Name</p>
+							<h3 class="mr-4 text-slate-700">Wade</p>
+						</div>
+					</div>
+					<div class="mt-8 flex">
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Swift Code</p>
+							<h3 class="mr-4 text-slate-700">70177075</p>
+						</div>
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Branch</p>
+							<h3 class="mr-4 text-slate-700">Bekasi</p>
+						</div>
+					</div>
+					<div class="mt-8 flex">
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">IBank</p>
+							<h3 class="mr-4 text-slate-700">BNI</p>
+						</div>
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Assoite Product</p>
+							<h3 class="mr-4 text-slate-700">AB Overdraft</p>
+						</div>
+					</div>
+					<div class="mt-8 flex">
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Credit interest rate</p>
+							<h3 class="mr-4 text-slate-700">20%</p>
+						</div>
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Debit Interest rate</p>
+							<h3 class="mr-4 text-slate-700">7493%</p>
+						</div>
+					</div>
+					<div class="mt-8 flex">
+						<div class="w-1/2">
+							<p class="text-slate-400/80 text-[12px]">Overdue Limit</p>
+							<h3 class="mr-4 text-slate-700">20$</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

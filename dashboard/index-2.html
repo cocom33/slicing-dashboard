@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard Tailwind CSS</title>
+  <link rel="stylesheet" href="public/css/output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="bg-slate-700 dark:bg-slate-50/0 open-sans">
+  <div class="flex">
+    <div class="max-w-[270px] w-full border-r border-slate-500 px-3 py-6">
+      <div class="flex items-center mb-8 px-3">
+        <div class="w-14 h-14 rounded overflow-hidden mr-3">
+          <img src="public/img/profile-3.png" alt="" class="w-full object-cover" />
+        </div>
+        <div>
+          <h3 class="text-white font-bold">Blue Frog</h3>
+          <p class="text-primary font-medium">@ghostyel04</p>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="text-slate-300 text-sm font-bold mb-3 px-6">Main Menu</h1>
+        <div class="mb-6">
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-solid fa-table-cells-large mr-3"></i>Overview
+            </div>
+            <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+          </a>
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-regular fa-eye mr-3"></i>Visible bids
+            </div>
+          </a>
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-solid fa-wallet mr-3"></i>Your Wallet
+            </div>
+          </a>
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-regular fa-comment-dots mr-3"></i>Message
+            </div>
+            <span class="rounded-full py-1 px-2 text-xs text-white bg-white/10">9+</span>
+          </a>
+        </div>
+
+        <h1 class="text-slate-300 text-sm font-bold mb-3 px-6">
+          Discorvering & Mentoring
+        </h1>
+        <div class="mb-6">
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-solid fa-chart-line mr-3"></i>Activi Stas
+            </div>
+          </a>
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-solid fa-bolt mr-3"></i>Live Auction
+            </div>
+          </a>
+          <div class="flex flex-col">
+            <a href=""
+              class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+              <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+                <i class="fa-solid fa-bookmark mr-3"></i>Category
+              </div>
+              <i class="fa-solid fa-angle-down text-primary text-sm"></i>
+            </a>
+            <div class="ml-8">
+              <a href="" class="flex items-center hover:bg-slate-600 transition duration-200 rounded-lg px-3 group">
+                <div class="w-2 h-2 bg-lime-400 rounded-full mr-3"></div>
+                <p
+                  class="text-slate-500 font-medium text-[15px] py-2 group-hover:text-white/60 duration-200 transition">
+                  Visual World
+                </p>
+              </a>
+              <a href="" class="flex items-center hover:bg-slate-600 transition duration-200 rounded-lg px-3 group">
+                <div class="w-2 h-2 bg-red-400 rounded-full mr-3"></div>
+                <p
+                  class="text-slate-500 font-medium text-[15px] py-2 group-hover:text-white/60 duration-200 transition">
+                  3D & Abstract
+                </p>
+              </a>
+              <a href="" class="flex items-center hover:bg-slate-600 transition duration-200 rounded-lg px-3 group">
+                <div class="w-2 h-2 bg-purple-400 rounded-full mr-3"></div>
+                <p
+                  class="text-slate-500 font-medium text-[15px] py-2 group-hover:text-white/60 duration-200 transition">
+                  Music
+                </p>
+              </a>
+              <a href="" class="flex items-center hover:bg-slate-600 transition duration-200 rounded-lg px-3 group">
+                <div class="w-2 h-2 bg-sky-400 rounded-full mr-3"></div>
+                <p
+                  class="text-slate-500 font-medium text-[15px] py-2 group-hover:text-white/60 duration-200 transition">
+                  Photography
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="text-slate-300 text-sm font-bold mb-3 px-6">
+          Discorvering & Mentoring
+        </h1>
+        <div class="mb-6">
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600 group">
+            <div class="text-primary font-semibold group-hover:text-white/80 duration-200 transition">
+              <i class="fa-solid fa-gear mr-3"></i>Settings
+            </div>
+          </a>
+          <a href=""
+            class="px-6 py-3 rounded-lg flex justify-between items-center my-1 transition duration-200 hover:bg-slate-600">
+            <div class="text-red-500/80 font-semibold">
+              <i class="fa-solid fa-arrow-right-from-bracket mr-3"></i>Logout
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full p-6 flex flex-col min-h-screen">
+      <div class="flex justify-between items-center w-full mb-9">
+        <div>
+          <h4 class="text-primary text-sm">Hi Hello Ghost</h4>
+          <h2 class="text-lg text-white">Discover NFT & Digital Art</h2>
+        </div>
+        <div class="h-12 flex items-center">
+          <label for="search" class="pl-8 pr-2 bg-slate-600 rounded-l-full h-full text-primary flex items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </label>
+          <input type="text" id="search"
+            class="rounded-r-full pl-2 bg-slate-600 w-80 h-full placeholder:text-xs focus:ring focus:outline-none focus:ring-slate-400 focus:border-slate-500"
+            placeholder="Type to search digital art" />
+        </div>
+        <div class="flex justify-end items-center text-primary">
+          <div class="mr-5 relative">
+            <i class="fa-regular fa-comment-dots fa-lg hover:text-white/80 transition duration-200" role="button"></i>
+            <div class="bg-red-500 h-[8px] w-[8px] absolute top-0 -right-1 rounded-full"></div>
+          </div>
+          <div class="mr-5 relative">
+            <i class="fa-regular fa-bell fa-lg hover:text-white/80 transition duration-200" role="button"></i>
+            <div class="bg-red-500 h-[8px] w-[8px] absolute top-0 -right-1 rounded-full"></div>
+          </div>
+          <div class="bg-slate-600/70 p-1 rounded-full flex items-center">
+            <div class="w-9 h-9 rounded-full bg-slate-500 flex items-center justify-center mr-3">
+              <i class="fa-solid fa-moon text-white -rotate-[30deg]"></i>
+            </div>
+            <p class="text-primary pr-3 text-xs">Dark Mode</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 w-full gap-x-5">
+        <div class="col-span-2">
+          <div class="flex justify-between items-center mb-5">
+            <h1 class="text-slate-300 text-lg font-bold">Top Collection</h1>
+            <a href="" class="text-sm text-primary hover:underline">View All</a>
+          </div>
+          <div class="w-full flex justify-between flex-wrap h-full">
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-6.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-1.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-3.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-5.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-5.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+            <div class="w-[49%] mb-3">
+              <div class="rounded-lg overflow-hidden relative mb-3">
+                <img src="public/img/boss.jpg" alt="" class="object-cover object-center" />
+                <div
+                  class="absolute top-2 left-2 w-8 h-8 rounded-full border-2 border-white flex justify-center items-center group hover:border-red-600"
+                  role="button">
+                  <i class="fa-solid fa-heart text-white group-hover:text-red-600"></i>
+                </div>
+                <div class="absolute bottom-2 right-2 px-[15px] py-[6px] rounded-full bg-white/10 backdrop-blur">
+                  <i class="fa-solid fa-diamond text-white mr-2"></i>
+                  <span class="text-white text-sm font-bold">5.22</span>
+                </div>
+              </div>
+              <div class="flex justify-between items-center mb-1">
+                <h2 class="text-white font-bold text-lg">
+                  Beauty of Infrastucture
+                </h2>
+                <span class="rounded-full py-1 px-2 text-xs text-red-500 bg-red-900/10">new</span>
+              </div>
+              <div class="flex items-center">
+                <img src="public/img/profile-3.png" alt="" class="w-6 h-6 object-cover mr-3" />
+                <p class="text-primary text-sm mr-3">@InfraZed</p>
+                <i class="fa-solid fa-circle-check text-blue-300"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between items-center mb-5">
+            <h1 class="text-slate-300 text-lg font-bold">Your Balance</h1>
+            <a href="" class="text-sm text-primary hover:underline">Add Wallet</a>
+          </div>
+          <div class="rounded-3xl bg-white/10 flex flex-col justify-between items-center pt-6 pb-4 mb-8">
+            <p class="text-primary">Your Balance</p>
+            <h1 class="text-2xl text-white">206.05</h1>
+            <div class="flex mt-5 items-center">
+              <i class="fa-solid fa-diamond text-white/80 mr-3"></i>
+              <span class="text-primary">ETH</span>
+            </div>
+            <!-- grafik -->
+            <a href=""
+              class="flex items-center justify-center w-56 h-14 border rounded-full mt-10 border-slate-400 hover:bg-white/70 group transition duration-200">
+              <span class="flex items-center justify-center w-5 h-5 bg-slate-700 rounded-full mr-3">
+                <i class="fa-solid fa-plus text-white text-xs translate-y-[1px]"></i>
+              </span>
+              <span class="text-white text-sm font-bold mr-5 group-hover:text-slate-700">Top up Balance</span>
+              <i class="fa-solid fa-angle-right text-white text-xs group-hover:text-slate-700"></i>
+            </a>
+          </div>
+
+          <div class="flex justify-between items-center mb-5">
+            <h1 class="text-slate-300 text-lg font-bold">
+              Featured Creators
+            </h1>
+            <a href="" class="text-sm text-primary hover:underline">View All</a>
+          </div>
+          <div>
+            <div class="flex items-center mb-5">
+              <div class="w-14 h-14 mr-4 relative">
+                <img src="public/img/profile-1.png" alt="" class="w-full rounded-full" />
+                <i class="fa-solid fa-circle-check absolute text-sky-400 bottom-0 right-0"></i>
+              </div>
+              <div>
+                <h3 class="text-white font-bold">Blue Frog</h3>
+                <p class="text-primary font-medium">@ghostyel04</p>
+              </div>
+              <div class="ml-auto text-end">
+                <p class="text-red-600 text-xs">-2.4%</p>
+                <span class="text-slate-500 text-sm">
+                  <i class="fa-solid fa-diamond mr-2 text-white/70"></i>
+                  2.479%
+                </span>
+              </div>
+            </div>
+            <div class="flex items-center mb-5">
+              <div class="w-14 h-14 mr-4 relative">
+                <img src="public/img/profile-2.png" alt="" class="w-full rounded-full" />
+                <i class="fa-solid fa-circle-check absolute text-sky-400 bottom-0 right-0"></i>
+              </div>
+              <div>
+                <h3 class="text-white font-bold">Blue Frog</h3>
+                <p class="text-primary font-medium">@ghostyel04</p>
+              </div>
+              <div class="ml-auto text-end">
+                <p class="text-green-400 text-xs">-2.4%</p>
+                <span class="text-slate-500 text-sm">
+                  <i class="fa-solid fa-diamond mr-2 text-white/70"></i>
+                  2.479%
+                </span>
+              </div>
+            </div>
+            <div class="flex items-center mb-5">
+              <div class="w-14 h-14 mr-4 relative">
+                <img src="public/img/profile-4.png" alt="" class="w-full rounded-full" />
+                <i class="fa-solid fa-circle-check absolute text-sky-400 bottom-0 right-0"></i>
+              </div>
+              <div>
+                <h3 class="text-white font-bold">Blue Frog</h3>
+                <p class="text-primary font-medium">@ghostyel04</p>
+              </div>
+              <div class="ml-auto text-end">
+                <p class="text-green-400 text-xs">-2.4%</p>
+                <span class="text-slate-500 text-sm">
+                  <i class="fa-solid fa-diamond mr-2 text-white/70"></i>
+                  2.479%
+                </span>
+              </div>
+            </div>
+          </div>
+          <a href=""
+            class="flex items-center justify-center w-56 h-14 border rounded-full mt-10 border-slate-400 hover:bg-white/70 group transition duration-200">
+            <span class="text-white text-sm font-bold mr-5 group-hover:text-slate-700">Go To Rankings</span>
+            <i class="fa-solid fa-angle-right text-white text-xs group-hover:text-slate-700"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
